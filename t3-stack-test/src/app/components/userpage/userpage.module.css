@@ -1,0 +1,37 @@
+.TextMain{
+    margin: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    font-weight: lighter;
+  }
+  .main {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  .TextHeading{
+    margin: 2rem;
+    font-size: 1.8rem;
+    display: flex;
+    font-weight: bold;
+  }
+  .avatar {
+    margin: 2rem;
+    display: flex;
+    border-radius: 50%;
+    max-height: 15rem;
+    max-width: 15rem;
+  }
+  .checkmark{
+    margin-top: 0.4rem;
+    margin-left: 0.4rem;
+    display: flex;
+    max-width: 1.8rem;
+    max-height: 1.8rem;
+  }
+  .clock{
+    margin-top: 0.2rem;
+    margin-right: 0.2rem;
+    display: flex;
+    max-width: 1.2rem;
+    max-height: 1.2rem;
+  }  

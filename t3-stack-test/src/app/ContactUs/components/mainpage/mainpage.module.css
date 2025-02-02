@@ -1,0 +1,113 @@
+.mainDiv{
+    height: 100%;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    color:rgb(255, 255, 255);
+    background-color: rgb(53, 52, 51);
+    display: flex;
+    width: 60%;
+    margin: auto;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+.headingP{
+    font-weight:lighter;
+    margin-bottom: 0.5rem;
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+}
+.mainform{
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    color: #353638b2;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.inputMessage{
+    border-color: #3b3c3d31;
+    border-radius: 0.35rem;
+    margin-top: 1rem;
+    resize: none;
+    margin-top: 1rem;
+}
+.heading{
+    color: #353638de;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Arial, sans-serif
+}
+.preferred{
+    color: #777779de;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: Arial, sans-serif
+}
+.input{
+    height: 1.8rem;
+    border-color: #3b3c3d31;
+    border-radius: 0.35rem;
+    margin-top: 1rem;
+}
+.btn {
+	display: inline-block;	
+	box-sizing: border-box;
+    margin-top: 1rem;
+	outline: none;
+	border: none;  
+	border-radius: 4px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #fff;
+	background-color: #00a4ef;
+	box-shadow: 0 2px #4f7fc4;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+}
+.btn:hover {
+	background-color: #516ddd;
+}
+.btn:active {
+	background-color: #2f599e !important;
+}
+.btn:focus-visible {
+	box-shadow: 0 0 0 3px lightskyblue;
+}
+.btn:disabled {
+	background-color: #6c87b5;
+	pointer-events: none;
+}
+.text-field__input::placeholder {
+    color: #212529;
+    opacity: 0.4;
+  }
+  .text-field__input::placeholder {
+    color: #212529;
+    opacity: 0.4;
+  }
+  .text-field__input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  }
+  .inputCheckBox{
+    margin-top: 1rem;
+  }
+  .span{
+    color: rgb(248, 80, 80);
+  }

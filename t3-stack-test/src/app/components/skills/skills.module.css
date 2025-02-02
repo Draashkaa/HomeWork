@@ -1,0 +1,24 @@
+.skills{
+    flex-wrap:wrap;
+    text-align: center;
+    display: flex;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    color:aliceblue;
+    border-radius: 0.6rem;
+    background-color: #00a4ef;
+  }
+.mainSkills{
+    text-align: center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    display: flex;
+    color:aliceblue;
+}
+.TextHeading{
+    margin: 2rem;
+    font-size: 1.8rem;
+    display: flex;
+    font-weight: bold;
+  }
