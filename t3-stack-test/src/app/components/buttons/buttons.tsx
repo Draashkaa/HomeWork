@@ -34,7 +34,8 @@ export const Buttons: React.FC<UserpageProps> = (props) => {
         <main>
             <button onClick={handleClick}  className={styles.btn}>{UserData.change}</button>
             <Link href='http://localhost:3000/countries'><button className={styles.btn}>{UserData.country}</button></Link>
-            <Link href='http://localhost:3000/ContactUs'><button className={styles.btn}>{UserData.country}</button></Link>
+            <Link href='http://localhost:3000/ContactUs'><button className={styles.btn}>Заполнить форму</button></Link>
+            <Link href='http://localhost:3000/Cats'><button className={styles.btn}>КОТЫ!!!</button></Link>
         </main> 
     );
 }
