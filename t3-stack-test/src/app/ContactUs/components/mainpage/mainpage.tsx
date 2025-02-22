@@ -43,9 +43,6 @@ export const Mainpage: React.FC<MainpageProps> = (props) => {
                 if(!value){
                     return 'This field is required'
                 }
-                // if(typeof value != 'Number'){
-                //     return 'Enter the correct phone number'
-                // }
                 if (value.length != 11){
                     return 'Lenght should be 11'
                 } 
